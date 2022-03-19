@@ -1,7 +1,13 @@
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'MuseoModerno', sans-serif;
 }
 @import 'var';
 @import 'mixins';
 @import 'general';
+@import 'blocks/buttons';
 @import 'media';
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
