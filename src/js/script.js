@@ -4,10 +4,11 @@ $(document).ready(function () {
 		infinite: true,
 		speed: 1100,
 		// adaptiveHeight: true,
-		// autoplay: true,
-		// autoplaySpeed: 4000,
-		prevArrow: '<button type="button" class="slick-prev"><img src="images/slides/chevron left solid.png"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="images/slides/chevron right solid.png"></button>',
+		autoplay: true,
+		autoplaySpeed: 3000,
+		prevArrow: '<button type="button" class="slick-prev"><img src="src/images/slides/chevron left solid.png"></button>',
+		nextArrow:
+			'<button type="button" class="slick-next"><img src="src/images/slides/chevron right solid.png"></button>',
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		responsive: [

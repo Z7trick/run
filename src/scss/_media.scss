@@ -160,6 +160,7 @@
 	.catalog {
 		&__tab {
 			font-size: 11px;
+			height: 48px;
 		}
 	}
 }
@@ -171,6 +172,19 @@
 		}
 		&__subheader {
 			font-size: 12px;
+		}
+	}
+	.header {
+		padding: 0;
+		&__phone {
+			font-size: 11px;
+		}
+		&__contacts {
+			.button {
+				width: 100px;
+				height: 20px;
+				font-size: 8px;
+			}
 		}
 	}
 	.benefits {
@@ -194,8 +208,20 @@
 		}
 	}
 	.catalog {
+		padding-bottom: 40px;
+		&__content {
+			margin-top: 40px;
+		}
 		&__tab {
-			font-size: 9px;
+			&:first-child {
+				line-height: 25px;
+			}
+			font-size: 8px;
+			height: 25px;
+			line-height: 22px;
+		}
+		&__tabs {
+			margin-top: 30px;
 		}
 	}
 	.catalog__content {
