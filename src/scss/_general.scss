@@ -98,7 +98,7 @@
 
 .benefits {
 	min-height: 473px;
-	background-color: #fff;
+	background-color: #f6f6f6;
 	padding: 73px 0 65px 0;
 	&__header {
 		color: $headercolor;
@@ -144,5 +144,19 @@
 			font-size: 14px;
 			color: #ff0000;
 		}
+	}
+}
+
+// Block Consultation
+
+.consultation {
+	min-height: 680px;
+	padding: 100px 0 108px 0;
+	background: url('../images/bg/bg2.jpg') center center/cover no-repeat;
+	&__descr {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 30px;
+		color: #fff;
 	}
 }
