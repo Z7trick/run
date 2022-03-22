@@ -93,9 +93,29 @@
 			text-align: left;
 		}
 	}
+	.footer {
+		&__info {
+			transition: all 0.1s ease-in;
+			width: 360px;
+			height: 170px;
+			padding: 20px 53px 26px 53px;
+		}
+		&__adr {
+			font-size: 16px;
+		}
+		&__phone {
+			font-size: 17px;
+		}
+		&__social {
+			margin-top: 15px;
+		}
+	}
 }
 
 @media (max-width: 575px) {
+	*:hover {
+		display: none;
+	}
 	.header {
 		padding: 0;
 		&__logo {
@@ -232,5 +252,28 @@
 		text-align: center;
 		padding: 0 15px;
 		font-size: 14px;
+	}
+	.footer {
+		&__info {
+			transition: all 0.1s ease-in;
+			width: 260px;
+			height: 120px;
+			padding: 10px 33px 10px 33px;
+		}
+		&__adr {
+			font-size: 12px;
+		}
+		&__phone {
+			font-size: 13px;
+		}
+		&__social {
+			width: 160px;
+			margin-top: 10px;
+		}
+		&__social-item {
+			img {
+				width: 35px;
+			}
+		}
 	}
 }
