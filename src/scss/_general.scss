@@ -160,3 +160,56 @@
 		color: #fff;
 	}
 }
+
+//Footer
+
+.footer {
+	height: 630px;
+	position: relative;
+	&__info {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 460px;
+		height: 270px;
+		background-color: $maincolor;
+		padding: 50px 53px 56px 53px;
+	}
+
+	&__adr {
+		font-weight: 500;
+		font-size: 20px;
+		color: #fff;
+		text-align: center;
+	}
+
+	&__phone {
+		font-weight: 700;
+		font-size: 20px;
+		color: #fff;
+		text-align: center;
+		display: block;
+		&:hover {
+			text-decoration: line-through;
+			color: #fff;
+		}
+	}
+
+	&__social {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 230px;
+		margin: 0 auto;
+		margin-top: 36px;
+	}
+
+	&__social-item {
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			transform: translateY(-5px);
+			border-radius: 100%;
+		}
+	}
+}
